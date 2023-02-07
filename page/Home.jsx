@@ -29,22 +29,20 @@ export default function Page({ navigation }) {
     >
       <ScrollView>
         <View style={styles.container}>
-          <Text style={HomeStyles.title}>
-            Digimon <Text style={[styles.tekoSB, HomeStyles.like]}>Like</Text>{" "}
-            or <Text style={[styles.tekoSB, HomeStyles.pass]}>Pass</Text>
+          <Text style={HomeStyles.title}>Digimon</Text>
+          <Text style={[HomeStyles.title, HomeStyles.titleLP]}>
+            <Text style={[styles.tekoSB, HomeStyles.like]}>Like</Text> or{" "}
+            <Text style={[styles.tekoSB, HomeStyles.pass]}>Pass</Text>
           </Text>
-
           <Image
             source={require("../assets/digimonLogo.png")}
             style={HomeStyles.logo}
             resizeMode="contain"
           />
-
           <MyButton
             title="Go like some monsters"
             onPress={() => navigation.navigate("LikeOrNot")}
           ></MyButton>
-
           <StatusBar style="auto" />
         </View>
       </ScrollView>
