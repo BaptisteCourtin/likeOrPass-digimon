@@ -1,8 +1,24 @@
 .title {
-  color: #ff9f14;
-  font-size: 2rem;
+  color: #f4f4f4;
+  text-align: center;
+  font-style: italic;
+
+  font-size: 4rem;
   font-weight: 600;
-  background-color: #22225e;
   padding: 1rem;
   border-radius: 20px;
+}
+
+.like {
+  color: green;
+  text-shadow: -5px 5px 5px #0390ca;
+}
+
+.pass {
+  color: red;
+  text-shadow: -5px 5px 5px #0390ca;
+}
+
+.logo {
+  max-width: 90%;
 }

@@ -1,5 +1,6 @@
 import Home from "./page/Home";
-import Details from "./page/Details";
+import LikeOrNot from "./page/LikeOrNot";
+import Stats from "./page/Stats";
 
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -15,8 +16,13 @@ export default function App() {
           options={{ title: "Welcome" }}
         />
         <Stack.Screen
-          name="Details"
-          component={Details}
+          name="LikeOrNot"
+          component={LikeOrNot}
+          options={{ title: "Back" }}
+        />
+        <Stack.Screen
+          name="Stats"
+          component={Stats}
           options={{ title: "Back" }}
         />
       </Stack.Navigator>

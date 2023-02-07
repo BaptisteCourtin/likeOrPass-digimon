@@ -1,0 +1,17 @@
+.number {
+  color: #fa9f28;
+  background-color: #0390ca;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1rem 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.containerImage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
